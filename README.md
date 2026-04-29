@@ -1,4 +1,4 @@
-# MGPEB — Módulo de Gerenciamento de Pouso e Estabilização de Base
+# MGPEB: Módulo de Gerenciamento de Pouso e Estabilização de Base
 
 **Missão Aurora Siger · Fase 2 · FIAP — Ciência da Computação · 2026**
 
