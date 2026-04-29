@@ -1,6 +1,6 @@
 # MGPEB: Módulo de Gerenciamento de Pouso e Estabilização de Base
 
-**Missão Aurora Siger · Fase 2 · FIAP — Ciência da Computação · 2026**
+**Missão Aurora Siger · Fase 2 · FIAP · Ciência da Computação · 2026**
 
 Protótipo do sistema responsável por organizar pousos de módulos da colônia Aurora Siger em Marte, tomando decisões automatizadas com base em lógica booleana, estruturas de dados lineares e algoritmos clássicos de busca e ordenação.
 
@@ -36,24 +36,24 @@ python3 mgpeb.py
 - Autorização de pouso baseada em expressões booleanas compostas
 
 **Estruturas de dados lineares**
-- Fila (`fila_autorizacao`) — FIFO para sequência de pousos
-- Pilha (`pilha_log`) — LIFO para auditoria de operações
-- Listas (`lista_pousados`, `lista_alertas`) — destino final dos módulos
+- Fila (`fila_autorizacao`) · FIFO para sequência de pousos
+- Pilha (`pilha_log`) · LIFO para auditoria de operações
+- Listas (`lista_pousados`, `lista_alertas`) · destino final dos módulos
 
 **Algoritmos de ordenação (O(n²))**
-- Bubble Sort — ordena por prioridade
-- Selection Sort — ordena por combustível
-- Insertion Sort — ordena por ETA orbital
+- Bubble Sort · ordena por prioridade
+- Selection Sort · ordena por combustível
+- Insertion Sort · ordena por ETA orbital
 
 **Algoritmos de busca**
-- Busca linear O(n) — por nome do módulo
-- Busca binária O(log n) — por ETA (requer lista ordenada)
+- Busca linear O(n) · por nome do módulo
+- Busca binária O(log n) · por ETA (requer lista ordenada)
 
 **Modelagem matemática**
-- `h(t) = 8000 − 180t − 1,86t²` — altitude de descida (quadrática)
-- `E(t) = 4,2 · sin(π · t / 24,6)` — energia solar (senoidal)
-- `C(v) = 0,5 + 0,003 · v²` — consumo de combustível (quadrática)
-- `T(t) = −63 + 30 · sin(2π · t / 88775)` — temperatura externa (senoidal)
+- `h(t) = 8000 − 180t − 1,86t²` · altitude de descida (quadrática)
+- `E(t) = 4,2 · sin(π · t / 24,6)` · energia solar (senoidal)
+- `C(v) = 0,5 + 0,003 · v²` · consumo de combustível (quadrática)
+- `T(t) = −63 + 30 · sin(2π · t / 88775)` · temperatura externa (senoidal)
 
 ---
 
